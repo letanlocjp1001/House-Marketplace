@@ -1,15 +1,19 @@
+// Import the functions you need from the SDKs you need
 import { initializeApp } from 'firebase/app'
 import { getFirestore } from 'firebase/firestore'
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyC4Onoqe56Me_eIs9T7udwBOYpCuEdUT34',
-  authDomain: 'house-marketplace-64ba3.firebaseapp.com',
-  projectId: 'house-marketplace-64ba3',
-  storageBucket: 'house-marketplace-64ba3.appspot.com',
-  messagingSenderId: '458627408410',
-  appId: '1:458627408410:web:fce1d76aec4f73713827a3',
+  apiKey: 'AIzaSyBUqByHWPFd6ds1G4NlTCmGzzLfvHlGzjw',
+  authDomain: 'house-e32dc.firebaseapp.com',
+  projectId: 'house-e32dc',
+  storageBucket: 'house-e32dc.appspot.com',
+  messagingSenderId: '1094998439990',
+  appId: '1:1094998439990:web:3990db4f559e4772068097',
 }
 
 // Initialize Firebase
-initializeApp(firebaseConfig)
+const app = initializeApp(firebaseConfig)
 export const db = getFirestore()
